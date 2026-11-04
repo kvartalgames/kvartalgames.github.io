@@ -1,0 +1,121 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#0c1118">
+  <meta name="description" content="За гаражами — зимняя социальная песочница в Roblox. Мороз, бутылки, своя комната и звонки таксофона. Запуск 20 декабря 2026 в 20:00 МСК.">
+  <title>За гаражами — зимний двор в Roblox</title>
+  <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+  <link rel="preload" as="image" href="/assets/yard-1920.webp" fetchpriority="high">
+  <link rel="stylesheet" href="/assets/fonts.css">
+  <link rel="stylesheet" href="/styles.css">
+  <script type="module" src="/app.js"></script>
+</head>
+<body>
+  <a class="skip-link" href="#world">Перейти к содержанию</a>
+  <header class="header">
+    <a class="brand" href="#top" aria-label="На первый экран"><svg class="brand-mark" viewBox="0 0 28 32" fill="none" aria-hidden="true"><path d="M1 31V8L14 1l13 7v23M1 11l13-7 13 7M14 4v27"/><path d="M6 15v4m0 4v4m15-12v4m0 4v4M10 13v4m0 4v4m8-12v4m0 4v4"/></svg><span data-title>За гаражами</span></a>
+    <nav aria-label="Основная навигация"><a href="#world">Мир</a><a href="#life">Жизнь двора</a><a href="#gallery">Кадры</a><a href="#launch">Запуск <span aria-hidden="true">↗</span></a></nav>
+    <span class="header-note"><i></i> Игра в разработке</span>
+  </header>
+
+  <main>
+    <section class="hero" id="top" aria-labelledby="hero-title">
+      <picture class="hero-picture"><source media="(max-width: 600px)" srcset="/assets/yard-1280.webp"><img src="/assets/yard-1920.webp" alt="Заснеженный ночной двор между пятиэтажками с тёплыми окнами" width="1920" height="1080" fetchpriority="high"></picture>
+      <div class="hero-shade"></div><div class="snow" aria-hidden="true"></div>
+      <div class="hero-content wrap">
+        <p class="eyebrow"><span class="tiny-cross" aria-hidden="true">+</span> Конец 1980-х. Зима. Твой новый двор.</p>
+        <h1 id="hero-title" data-title>За гаражами</h1>
+        <p class="hero-tagline">Начни с двух копеек.<br>Дальше — как получится.</p>
+        <p class="hero-description">Социальная песочница про холод, соседей<br class="desktop-br"> и левые дела.</p>
+        <div class="hero-actions"><a class="button button-warm" href="#launch">Узнать о запуске <span aria-hidden="true">↗</span></a><a class="text-link" href="#world">Пройти во двор <span aria-hidden="true">↓</span></a></div>
+      </div>
+      <div class="hero-bottom wrap">
+        <div class="arrival"><span class="eyebrow">01 / Конечная</span><span>Выходим. Дальше — пешком.</span></div>
+        <div class="hero-launch"><div><span class="eyebrow">До запуска</span><time data-launch-date datetime="2026-12-20T20:00:00+03:00">20 декабря 2026 · 20:00 МСК</time></div><div class="countdown countdown-small" data-countdown aria-label="Обратный отсчёт до запуска"></div><p class="launch-status" data-launch-status hidden></p></div>
+      </div>
+      <span class="render-label hero-render">Постановочный рендер · не игровой процесс</span>
+    </section>
+
+    <section class="world wrap section-space" id="world" aria-labelledby="world-title">
+      <div class="section-intro"><p class="eyebrow">Где это</p><span class="section-number" aria-hidden="true">01—03</span></div>
+      <div class="world-heading"><h2 id="world-title">Двор на<br><em>конечной.</em></h2><div><p>Конечная автобуса, кольцо пятиэтажек, гаражи.<br>Автобус уехал, ты остался с ордером на комнату.</p><p class="muted">Тебя тут пока никто не знает.</p></div></div>
+      <dl class="world-facts"><div><dt>Место</dt><dd>Поздний СССР</dd></div><div><dt>Время</dt><dd>Зима</dd></div><div><dt>Формат</dt><dd>До 20 игроков</dd></div><div><dt>Жанр</dt><dd>Социальная PvPvE-песочница</dd></div></dl>
+      <p class="concept-note">Мир и механики ниже — замысел игры в разработке. Состав возможностей к запуску может измениться.</p>
+    </section>
+
+    <section class="life wrap" id="life" aria-label="Первые шаги во дворе">
+      <article class="story story-warm">
+        <figure class="story-image"><img src="/assets/entrance-1280.webp" srcset="/assets/entrance-640.webp 640w, /assets/entrance-1280.webp 1280w" sizes="(max-width: 700px) 100vw, 58vw" alt="Облупившаяся зелёная краска и лестница тёплого подъезда" width="1600" height="900" loading="lazy"><figcaption><span>Подъезд. Тут можно погреться.</span><span>Рендер</span></figcaption></figure>
+        <div class="story-copy"><p class="eyebrow"><span>01</span> Холод</p><h3>Сначала —<br>согреться.</h3><p>На улице быстро замерзаешь. Погреться можно в подъезде у батареи или у парящего люка.</p><p class="muted">По ордеру дают комнату.<br>Форточка там выбита, заделывать придётся самому.</p><span class="story-footnote">У батареи часто кто-то уже стоит.</span></div>
+      </article>
+      <article class="story story-money">
+        <div class="story-copy"><p class="eyebrow"><span>02</span> Деньги</p><h3>Первые<br><em>копейки.</em></h3><p>Собираешь бутылки и старые газеты, чистишь снег у гастронома. Платят копейки, но на первое время хватит.</p><p class="muted">Сначала купишь фанеру на окно.<br>И оставь двушку на таксофон.</p></div>
+        <figure class="money-scene"><img src="/assets/string-bag-1280.webp" srcset="/assets/string-bag-640.webp 640w, /assets/string-bag-1280.webp 1280w" sizes="(max-width: 700px) 100vw, 55vw" alt="Сетчатые авоськи: пустая, с бутылками и свёрнутая" width="1600" height="900" loading="lazy"><figcaption>Авоська с тарой. <span>Рендер</span></figcaption><div class="coin-note" aria-hidden="true"><span>2</span><small>КОПЕЙКИ</small><b>1988</b></div></figure>
+      </article>
+    </section>
+
+    <section class="phone-section" aria-labelledby="phone-title">
+      <div class="phone-image"><img src="/assets/phone-1920.webp" srcset="/assets/phone-640.webp 640w, /assets/phone-1280.webp 1280w, /assets/phone-1920.webp 1920w" sizes="(max-width: 800px) 100vw, 65vw" alt="Старый таксофон с чёрной трубкой, исцарапанной стеной и дворовыми надписями" width="1920" height="1080" loading="lazy"><span class="render-label">Постановочный рендер · не игровой процесс</span></div>
+      <div class="phone-copy"><p class="eyebrow"><span>03</span> Таксофон</p><div class="line-signal" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div><h2 id="phone-title">Кто первым<br>снял трубку,<br><em>тому и дело.</em></h2><p>Нужна двушка в кармане. В трубке скажут, где лежит чужой свёрток, а забирать его или нет — решаешь сам.</p><button class="button button-warm" id="answer-phone" aria-expanded="false" aria-controls="phone-message">Снять трубку <span>· 2 коп.</span><span aria-hidden="true">↗</span></button><div id="phone-message" class="phone-message" hidden role="status"><span class="eyebrow">Голос в трубке</span><p>«Ты новенький? Есть дело. Чердак второго подъезда. Только тихо».</p><span class="muted">Дальше сам.</span></div><div class="phone-options"><button id="sound-toggle" aria-pressed="false">Звук: выключен <span aria-hidden="true">♪</span></button><span>Атмосферная сцена</span></div>
+      </div>
+    </section>
+
+    <section class="neighbours-section wrap section-space" aria-labelledby="neighbours-title">
+      <div class="section-intro"><p class="eyebrow">Между делом</p><span class="section-number">Двор / Площадка</span></div>
+      <div class="neighbours-layout">
+        <button class="scene-link neighbours-image" data-gallery="9" aria-label="Увеличить рендер детской площадки"><img src="/assets/playground-1280.webp" srcset="/assets/playground-640.webp 640w, /assets/playground-1280.webp 1280w" sizes="(max-width: 700px) 100vw, 60vw" alt="Заснеженная площадка: железная горка-ракета, качели и стол под грибком" width="1600" height="900" loading="lazy"><span class="scene-caption"><span>Детская площадка</span><span>Рендер ↗</span></span></button>
+        <div class="neighbours-copy"><h2 id="neighbours-title">Можно просто<br><em>посидеть.</em></h2><p>Не всё время надо куда-то бежать.</p><p class="muted">В планах — домино во дворе, разговоры у подъезда и музыка из чужого окна. Тут можно найти соперника, а можно просто приятеля.</p><span class="neighbours-footnote">На сервере до 20 человек, так что друг друга быстро запоминают.</span></div>
+      </div>
+    </section>
+
+    <section class="home-section" aria-labelledby="home-title">
+      <div class="wrap"><div class="home-top"><div><p class="eyebrow">Жильё</p><h2 id="home-title">Свой <em>угол.</em></h2><p>Комната пустая, зато своя.<br>Одно из этих окон — твоё.</p></div><div class="order"><span>Жилищно-эксплуатационная контора</span><div class="order-title">Ордер <small>№ 0020</small></div><p>На одну комнату</p><div class="order-rule">Выдан: новосёлу</div><div class="stamp">НА ВСЕЛЕНИЕ<br><b>ЖЭК</b><br>ЖИЛОЙ ФОНД</div><span class="order-note">Художественный элемент мира игры</span></div></div>
+      <div class="home-images"><figure><img src="/assets/room-1280.webp" srcset="/assets/room-640.webp 640w, /assets/room-1280.webp 1280w" sizes="(max-width: 700px) 100vw, 52vw" alt="Пока почти пустая комната игрока с обоями и окном" width="1600" height="900" loading="lazy"><figcaption><span>01 / Комната. Пока почти пустая.</span><span>Рендер</span></figcaption></figure><figure><img src="/assets/garages-1280.webp" srcset="/assets/garages-640.webp 640w, /assets/garages-1280.webp 1280w" sizes="(max-width: 700px) 100vw, 40vw" alt="Тёмный тупик гаражей с тёплым светом в дальнем боксе" width="1600" height="900" loading="lazy"><figcaption><span>02 / Гаражи. Бокс — это уже потом.</span><span>Рендер</span></figcaption></figure></div>
+      <div class="home-bottom"><p>Сначала матрас на полу.<br>Потом можно звать гостей.</p><div><p>В планах — ковёр на стене, кассетник у окна и первые гости. Потом — собственный гараж, буржуйка, верстак и «Карпаты», собранные по деталям.</p><span>На всё это придётся копить.</span><div class="home-warmth"><button class="scene-link" data-gallery="10" aria-label="Увеличить рендер буржуйки в бытовке"><img src="/assets/stove-640.webp" alt="Буржуйка с чайником у стены ремонтной бытовки" width="1600" height="900" loading="lazy"><span class="scene-caption"><span>Рендер</span><span aria-hidden="true">↗</span></span></button><p><b>Можно зайти погреться.</b><br>В ремонтной бытовке топят буржуйку.</p></div></div></div></div>
+    </section>
+
+    <section class="night-section" id="night" aria-labelledby="night-title">
+      <div class="night-images"><img id="night-on" src="/assets/night-on-1280.webp" alt="Ночная пятиэтажка с горящими окнами" width="1600" height="900" loading="lazy"><img id="night-off" src="/assets/night-off-1280.webp" alt="Та же пятиэтажка после отключения света, с аварийными лампами у подъездов" width="1600" height="900" loading="lazy" hidden></div><div class="night-shade"></div>
+      <div class="wrap night-content"><div class="section-intro"><p class="eyebrow">Ночь</p><button class="light-toggle" id="light-toggle" aria-pressed="false"><span class="light-dot"></span><span id="light-label">Свет есть</span><span class="switch" aria-hidden="true"></span></button></div><h2 id="night-title">Ночью<br>гаснет <em>свет.</em></h2><div class="night-text"><p>Днём тут стоят в очереди.<br>Ночью сидят по домам.</p><p>Фонари гаснут, на улицу выходят патрули и чужая шпана. Зато ночные тайники дороже. Нашумишь — поднимешь весь двор.</p></div><span class="render-label">Постановочные рендеры · не игровой процесс</span></div>
+    </section>
+
+    <section class="station-section" id="station" aria-labelledby="station-title">
+      <div class="wrap">
+        <div class="section-intro"><p class="eyebrow"><span class="station-indicator" aria-hidden="true"></span> Милиция</p><span class="station-sign">Опорный пункт / Ночная смена</span></div>
+        <div class="station-heading"><h2 id="station-title">Опорный<br><em>пункт.</em></h2><div><p>Сюда привозят тех, кого поймали.<br>Лучше не попадаться.</p><p class="muted">В планах — патрули участкового и дружинников. Поймают с контрабандой или в драке — посидишь в камере, а друг сможет внести за тебя штраф через окошко.</p></div></div>
+        <div class="station-layout">
+          <button class="scene-link station-main" data-gallery="6" aria-label="Увеличить ночной рендер опорного пункта милиции"><img src="/assets/station-1280.webp" srcset="/assets/station-640.webp 640w, /assets/station-1280.webp 1280w" sizes="(max-width: 700px) 100vw, 65vw" alt="Освещённая дверь опорного пункта под вывеской «Милиция», решётки на окнах и снег" width="1600" height="900" loading="lazy"><span class="scene-caption"><span>01 / Вход</span><span>Рендер ↗</span></span></button>
+          <div class="station-side"><button class="scene-link" data-gallery="7" aria-label="Увеличить рендер комнаты дежурного"><img src="/assets/duty-room-640.webp" alt="Комната дежурного: шкаф, шинель на вешалке, стул и стол с телефоном и журналами" width="1600" height="900" loading="lazy"><span class="scene-caption"><span>02 / У дежурного</span><span>Рендер ↗</span></span></button><div class="station-note"><span class="eyebrow">Если посадили</span><p>Хорошо, когда есть<br>кому тебя <em>выкупить.</em></p><span>Поэтому друзей лучше завести заранее.</span></div></div>
+        </div>
+        <div class="station-afterword"><div><span class="eyebrow">Окошко дежурного</span><p>Штраф платят здесь.</p><span>Или сидишь, пока не выпустят.</span></div><button class="scene-link station-window" data-gallery="8" aria-label="Увеличить рендер окошка в опорном пункте"><img src="/assets/station-window-1280.webp" srcset="/assets/station-window-640.webp 640w, /assets/station-window-1280.webp 1280w" sizes="(max-width: 700px) 100vw, 46vw" alt="Деревянное окошко опорного пункта с зелёным телефоном за стеклом" width="1600" height="900" loading="lazy"><span class="scene-caption"><span>03 / Приём посетителей</span><span>Рендер ↗</span></span></button></div>
+        <p class="station-disclaimer">Постановочные рендеры из материалов разработки. Не игровой процесс. Механики описывают замысел игры.</p>
+      </div>
+    </section>
+
+    <section class="gallery-section wrap section-space" id="gallery" aria-labelledby="gallery-title">
+      <div class="section-intro"><p class="eyebrow">Рендеры</p><span class="eyebrow" data-gallery-total>11 кадров / Один двор</span></div><div class="gallery-heading"><h2 id="gallery-title">Кадры <em>из двора.</em></h2><p>Что уже сделано<br>для игры.</p></div><p class="gallery-disclaimer">Постановочные рендеры из материалов разработки. Не игровой процесс.</p>
+      <div class="gallery-grid">
+        <button class="gallery-item gallery-wide" data-gallery="0"><img src="/assets/yard-1280.webp" alt="Ночной двор" width="1920" height="1080" loading="lazy"><span><b>01</b> Двор ночью <i aria-hidden="true">↗</i></span></button>
+        <button class="gallery-item" data-gallery="1"><img src="/assets/stop-640.webp" alt="Конечная остановка" width="1600" height="900" loading="lazy"><span><b>02</b> Конечная <i aria-hidden="true">↗</i></span></button>
+        <button class="gallery-item" data-gallery="2"><img src="/assets/phone-640.webp" alt="Таксофон и надписи на стене" width="1920" height="1080" loading="lazy"><span><b>03</b> Таксофон <i aria-hidden="true">↗</i></span></button>
+        <button class="gallery-item" data-gallery="3"><img src="/assets/entrance-640.webp" alt="Лестничная клетка" width="1600" height="900" loading="lazy"><span><b>04</b> Подъезд <i aria-hidden="true">↗</i></span></button>
+        <button class="gallery-item" data-gallery="4"><img src="/assets/attic-640.webp" alt="Чердак с деревянными балками" width="1600" height="900" loading="lazy"><span><b>05</b> Чердак <i aria-hidden="true">↗</i></span></button>
+        <button class="gallery-item gallery-wide" data-gallery="5"><img src="/assets/garages-1280.webp" alt="Ночной гаражный тупик" width="1600" height="900" loading="lazy"><span><b>06</b> Гаражи <i aria-hidden="true">↗</i></span></button>
+        <button class="gallery-item gallery-wide" data-gallery="6"><img src="/assets/station-1280.webp" alt="Ночной вход в опорный пункт милиции" width="1600" height="900" loading="lazy"><span><b>07</b> Опорный пункт ночью <i aria-hidden="true">↗</i></span></button>
+        <button class="gallery-item" data-gallery="7"><img src="/assets/duty-room-640.webp" alt="Стол и телефон в комнате дежурного" width="1600" height="900" loading="lazy"><span><b>08</b> Комната дежурного <i aria-hidden="true">↗</i></span></button>
+        <button class="gallery-item" data-gallery="8"><img src="/assets/station-window-640.webp" alt="Окошко для посетителей в опорном пункте" width="1600" height="900" loading="lazy"><span><b>09</b> Окошко дежурного <i aria-hidden="true">↗</i></span></button>
+        <button class="gallery-item gallery-wide" data-gallery="9"><img src="/assets/playground-1280.webp" alt="Заснеженная детская площадка с горкой-ракетой" width="1600" height="900" loading="lazy"><span><b>10</b> Детская площадка <i aria-hidden="true">↗</i></span></button>
+        <button class="gallery-item gallery-wide" data-gallery="10"><img src="/assets/stove-1280.webp" alt="Буржуйка и чайник в ремонтной бытовке" width="1600" height="900" loading="lazy"><span><b>11</b> Буржуйка в бытовке <i aria-hidden="true">↗</i></span></button>
+      </div>
+    </section>
+
+    <section class="launch-section" id="launch" aria-labelledby="launch-title"><img class="launch-background" src="/assets/windows-1280.webp" alt="" width="1600" height="900" loading="lazy"><div class="launch-shade"></div><div class="wrap launch-content"><p class="eyebrow"><span class="status-dot"></span> Запуск</p><h2 id="launch-title">Встретимся<br><em>во дворе.</em></h2><time class="launch-date" data-launch-date datetime="2026-12-20T20:00:00+03:00">20 декабря 2026 · 20:00 МСК</time><p class="eyebrow countdown-label">До запуска</p><div class="countdown countdown-large" data-countdown aria-label="Обратный отсчёт до запуска"></div><p class="launch-status" data-launch-status hidden role="status"></p><div class="official-links" id="official-links"></div><p class="launch-note" id="launch-note">Ссылка на игру появится здесь после подтверждения.</p></div></section>
+
+    <section class="faq wrap" aria-labelledby="faq-title"><div><p class="eyebrow">Коротко</p><h2 id="faq-title">Есть вопросы?</h2></div><div class="faq-list"><details><summary>Что это за игра?<span aria-hidden="true">+</span></summary><p><span data-title>За гаражами</span> — социальная PvPvE-песочница про зимний двор в позднем СССР: мёрзнешь, зарабатываешь копейки, обустраиваешь комнату и ввязываешься в мелкие тёмные дела. Игра в разработке; описанные механики отражают её концепцию.</p></details><details><summary>Где выйдет игра?<span aria-hidden="true">+</span></summary><p>В Roblox. Официальная ссылка появится на этой странице после подтверждения. Поддержка конкретных устройств пока не объявлена.</p></details><details><summary>Сколько игроков будет во дворе?<span aria-hidden="true">+</span></summary><p>Задуман сервер до 20 игроков.</p></details><details><summary>Когда запуск?<span aria-hidden="true">+</span></summary><p>Плановая дата — <span data-launch-date>20 декабря 2026 · 20:00 МСК</span>. Отсчёт ведётся по московскому времени. Доступность игры будет подтверждена отдельно.</p></details></div></section>
+  </main>
+  <footer class="footer wrap"><a class="brand" href="#top"><span data-title>За гаражами</span></a><span data-studio>KVARTAL Games</span><p class="footer-disclaimer">Игра в разработке.<br>Название, концепция и игровой процесс могут меняться по мере развития проекта.</p><a class="back-top" href="#top">Наверх ↑</a></footer>
+  <dialog id="gallery-dialog" class="gallery-dialog" aria-labelledby="gallery-caption"><div class="lightbox-top"><span class="eyebrow" id="gallery-count"></span><button id="gallery-close" aria-label="Закрыть галерею">Закрыть <span aria-hidden="true">×</span></button></div><div class="lightbox-image"><img id="gallery-full" alt=""><button class="gallery-prev" id="gallery-prev" aria-label="Предыдущий кадр">←</button><button class="gallery-next" id="gallery-next" aria-label="Следующий кадр">→</button></div><p id="gallery-caption"></p><p class="render-label">Постановочный рендер · не игровой процесс</p><span class="lightbox-help">← → Сменить кадр <span>Esc Закрыть</span></span></dialog>
+</body>
+</html>
